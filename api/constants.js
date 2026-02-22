@@ -2,7 +2,7 @@ export const startMessage = `👋 Oh? Hello, UserName.
 
 So… you decided to start me. Not that I was waiting or anything.
 
-Welcome to the *Auto Emoji Reaction Bot ✨*.
+Welcome to the *Alisa Emoji Reaction Bot ✨*.
 I suppose I can make your chats a little more interesting… if you behave.
 
 💬 Here’s what I can do for you:
