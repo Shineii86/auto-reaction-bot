@@ -1,3 +1,3 @@
-name = "alisareactionbot"
+name = "auto-reaction-bot"
 main = "api/worker.js"
 compatibility_date = "2026-02-22"
