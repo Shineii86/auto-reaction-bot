@@ -1,35 +1,28 @@
-export const startMessage = `👋 Oh? Hello, UserName.
+export const startMessage = `👋 Oh? Hello, *UserName*.
 
-So… you decided to start me. Not that I was waiting or anything.
+So you started me. Not that I was waiting or anything.
 
-Welcome to the *Alisa Emoji Reaction Bot ✨*.
-I suppose I can make your chats a little more interesting… if you behave.
+Welcome to *Alisa Emoji Reaction Bot ✨*
+I’ll make your chats more fun… if you behave.
 
-💬 Here’s what I can do for you:
+💬 What I do:
 
-*✨ Private Chat*: Talk to me, and I’ll quietly react with a fitting emoji. Consider it… my subtle approval.
-*🌸 Groups & Channels*: Add me anywhere, and I’ll keep an eye on the conversation. When the mood feels right, I’ll respond with a perfectly chosen reaction.
+✨ *Private*: I react to your messages with the perfect emoji.
+🌸 *Groups & Channels*: Add me and I’ll drop fitting reactions when the mood feels right.
 
-If you’re curious which emojis I use, type /reactions.
-I’ll show you… since you asked.
+Curious about my emojis? Use /reactions.
 
-Let’s make your chats a little brighter.
-But don’t misunderstand… I’m only helping because I want to.
+Let’s brighten your chats a little.
+I’m only helping because I want to… okay?`
 
-…спасибо for choosing me. 💖
+export const donateMessage = `Oh… you’re still here?
 
-If you wish to support the bot, you may use /donate.
-Not that I’m asking directly.`
+If you like using Alisa Reaction Bot, maybe consider supporting it. Not that I’m insisting or anything… but keeping the bot online and improving it does take effort.
 
-export const donateMessage = `Ah… you’re still here?
+Even a small contribution helps. Truly.
 
-If you truly enjoy using Alisa Reaction Bot, then perhaps you could show a little support. I mean… it’s not like we need it or anything. But if you want this bot to stay online and keep getting better, your help would mean a lot.
-
-Every little contribution helps us maintain the service and add new improvements. Even a single star makes a difference.
-
-Спасибо… for supporting us.
-
-And don’t misunderstand. I’m only saying this because I appreciate you.`
+Спасибо for the support.
+And don’t get the wrong idea. I’m only saying this because I appreciate you.`
 
 export const htmlContent = `
 <!DOCTYPE html>
