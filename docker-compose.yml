@@ -1,7 +1,7 @@
 services:
-  auto-reaction-bot:
+  alisareactionbot:
     build: .
-    container_name: auto-reaction-bot
+    container_name: alisareactionbot
     restart: unless-stopped
     ports:
       - "${EXPOSE_PORT:-3000}:3000"
