@@ -36,29 +36,29 @@ export async function onUpdate(data, botApi, Reactions, RestrictedChats, botUser
         if (data.message && (text === '/start' || text === '/start@' + botUsername)) {
             await botApi.sendMessage(chatId, startMessage.replace('UserName', content.chat.type === "private" ? content.from.first_name : content.chat.title), [
                 [
-                    { "text": "➕ Add to Channel ➕", "url": `https://t.me/${botUsername}?startchannel=botstart` },
-                    { "text": "➕ Add to Group ➕", "url": `https://t.me/${botUsername}?startgroup=botstart` },
+                    { "text": "✚ Aᴅᴅ Tᴏ Cʜᴀɴɴᴇʟ ✚", "url": `https://t.me/${botUsername}?startchannel=botstart` },
+                    { "text": "✚ Aᴅᴅ Tᴏ Gʀᴏᴜᴘ ✚", "url": `https://t.me/${botUsername}?startgroup=botstart` },
                 ],
                 [
-                    { "text": "Github Source 📥", "url": "https://github.com/Malith-Rukshan/Auto-Reaction-Bot" },
+                    { "text": "☁️ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ✨", "url": "https://t.me/Shineii86" },
                 ],
                 [
-                    { "text": "💝 Support Us - Donate 🤝", "url": "https://t.me/Auto_ReactionBOT?start=donate" }
+                    { "text": "🎁 Sᴜᴘᴘᴏʀᴛ Us - Dᴏɴᴀᴛᴇ 🤝", "url": "https://t.me/AlisaReactionBot?start=donate" }
                 ]
             ]);
         } else if (data.message && text === '/reactions') {
             const reactions = Reactions.join(", ");
-            await botApi.sendMessage(chatId, "✅ Enabled Reactions : \n\n" + reactions);
+            await botApi.sendMessage(chatId, "🚀 Eɴᴀʙʟᴇᴅ Rᴇᴀᴄᴛɪᴏɴs \n\n" + reactions);
         } else if (data.message && (text === '/donate' || text === '/start donate')) {
             await botApi.sendInvoice(
                 chatId,
-                "Donate to Auto Reaction Bot ✨",
+                "Donate to Alisa Reaction Bot ✨",
                 donateMessage,
                 '{}',
                 '',
                 'donate',
                 'XTR',
-                [{ label: 'Pay ⭐️5', amount: 5 }],
+                [{ label: 'Pay ⭐️10', amount: 10}],
             )
         } else {
             // Calculate the threshold: higher RandomLevel, lower threshold
