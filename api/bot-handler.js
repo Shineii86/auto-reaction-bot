@@ -48,11 +48,11 @@ export async function onUpdate(data, botApi, Reactions, RestrictedChats, botUser
             ]);
         } else if (data.message && text === '/reactions') {
             const reactions = Reactions.join(", ");
-            await botApi.sendMessage(chatId, "🚀 Eɴᴀʙʟᴇᴅ Rᴇᴀᴄᴛɪᴏɴs \n\n" + reactions);
+            await botApi.sendMessage(chatId, "🚀 Eɴᴀʙʟᴇᴅ Rᴇᴀᴄᴛɪᴏɴs: \n\n" + reactions);
         } else if (data.message && (text === '/donate' || text === '/start donate')) {
             await botApi.sendInvoice(
                 chatId,
-                "Donate to Alisa Reaction Bot ✨",
+                "🎁 𝗗𝗼𝗻𝗮𝘁𝗲 𝘁𝗼 𝗔𝗹𝗶𝘀𝗮 𝗥𝗲𝗮𝗰𝘁𝗶𝗼𝗻 𝗕𝗼𝘁 ✨",
                 donateMessage,
                 '{}',
                 '',
