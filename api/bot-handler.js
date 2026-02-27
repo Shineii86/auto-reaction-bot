@@ -40,7 +40,8 @@ export async function onUpdate(data, botApi, Reactions, RestrictedChats, botUser
                     { "text": "✚ Aᴅᴅ Tᴏ Gʀᴏᴜᴘ ✚", "url": `https://t.me/${botUsername}?startgroup=botstart` },
                 ],
                 [
-                    { "text": "☁️ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ✨", "url": "https://t.me/Shineii86" },
+                    { "text": "🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ", "url": "https://t.me/Shineii86"},
+                    { "text": "Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ☁️", "url": "https://alisareactionbot.ikx7a.workers.dev/" }
                 ],
                 [
                     { "text": "🎁 Sᴜᴘᴘᴏʀᴛ Us - Dᴏɴᴀᴛᴇ 🤝", "url": "https://t.me/AlisaReactionBot?start=donate" }
